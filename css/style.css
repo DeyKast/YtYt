@@ -552,6 +552,10 @@ a {
   gap: 125px;
 }
 
+.section5-info-item {
+  width: 360px;
+}
+
 .section5-info_number {
   font-weight: 700;
   font-size: 77px;
@@ -563,8 +567,8 @@ a {
 }
 
 .section5-info_text {
-  font-weight: 600;
-  font-size: 18px;
+  font-weight: 700;
+  font-size: 24px;
   line-height: 125%;
 
   margin-bottom: 20px;
