@@ -292,10 +292,285 @@ a {
   height: 400px;
 }
 
+.section3-card:last-child {
+  align-items: center;
+}
+
+.section3-card_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
 .section3-list {
   width: 470px;
   display: flex;
   align-items: flex-start;
   gap: 10px;
   flex-wrap: wrap;
+
+  margin-left: 60px;
+  margin-bottom: 25px;
+}
+
+.section3-list_item {
+  font-size: 17px;
+  line-height: 46px;
+  color: var(--color-white);
+
+  border-radius: 44px;
+  height: 45px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.item_1 {
+  background-color: #5096ff;
+}
+
+.item_2 {
+  background-color: #ffb359;
+}
+
+.item_3 {
+  background-color: #ff6f50;
+}
+
+.item_4 {
+  background-color: #4bd071;
+}
+
+.item_5 {
+  background-color: #50c0ff;
+}
+
+.item_6 {
+  background-color: #4b77b9;
+}
+
+.item_7 {
+  background-color: #af93ff;
+}
+
+.section3-card_text {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 125%;
+
+  color: #22253b;
+
+  margin-left: 60px;
+}
+
+/* ============SECTION4============= */
+.section4 {
+  border: none;
+  border-bottom-left-radius: 20%;
+  border-bottom-left-radius: 20%;
+}
+
+.container4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section4_title {
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 46px;
+  color: var(--main-color);
+
+  margin-bottom: 35px;
+  text-align: center;
+  width: 600px;
+}
+
+.section4-list {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.section4-list_item {
+  width: 264px;
+  height: 254px;
+  background: #eaf2f5;
+  border-radius: 30px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 30px 35px;
+}
+
+.section4-icon {
+  width: 60px;
+  height: 60px;
+
+  margin-bottom: 20px;
+}
+
+.section4-card_title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+
+  text-align: center;
+
+  margin-bottom: 10px;
+}
+
+.section4-card_text {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 115%;
+
+  text-align: center;
+}
+
+/* ============section5============== */
+.section5 {
+  background-color: var(--header-background-color);
+
+  padding-top: 55px;
+}
+
+.container5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section5-title {
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 100%;
+
+  text-align: center;
+
+  margin-bottom: 25px;
+}
+
+.macbook-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 680px;
+  position: relative;
+}
+
+.section5-subtitle {
+  font-size: 16px;
+  line-height: 125%;
+
+  text-align: center;
+
+  margin-bottom: 30px;
+}
+
+.button-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  position: absolute;
+  top: 40%;
+  left: 38%;
+}
+
+.video-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 122px;
+  height: 122px;
+
+  border: 20px solid rgba(241, 85, 37, 0.32);
+  padding: 20px;
+  border-radius: 50%;
+
+  background-color: rgba(241, 85, 37, 0.32);
+
+  cursor: pointer;
+
+  transition: var(--animation);
+}
+
+.video-button:hover {
+  background-color: #e35124;
+}
+
+.section5-icon {
+  width: 20px;
+  height: 22px;
+}
+
+.button-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 96.69%;
+  letter-spacing: -0.03em;
+
+  color: var(--color-white);
+}
+
+.section5-info-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 30px;
+  padding: 55px 50px;
+
+  background: var(--color-white);
+  box-shadow: 0px 81px 120px -77px rgba(34, 37, 59, 0.04);
+  border-radius: 40px;
+}
+
+.section5-info {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+
+  gap: 125px;
+}
+
+.section5-info_number {
+  font-weight: 700;
+  font-size: 77px;
+  line-height: 39%;
+
+  color: #38bff2;
+
+  margin-bottom: 30px;
+}
+
+.section5-info_text {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 125%;
+
+  margin-bottom: 20px;
+}
+
+.section5-info-subtext {
+  font-size: 16px;
+  line-height: 144%;
 }
